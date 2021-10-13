@@ -2,7 +2,7 @@
 
 autos  <- mtcars
 mean(mtcars$wt)
-
+ ####
 
 usethis::create_github_token()
 
@@ -12,3 +12,6 @@ library(gitcreds)
 gitcreds_set()
 
 gitcreds_get()
+
+### 
+a <- 10
